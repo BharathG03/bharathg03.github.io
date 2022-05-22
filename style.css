@@ -117,11 +117,34 @@ body
     display: block;
 }
 
+.title
+{
+    font-weight: bold;
+}
+
 /*---------------------Education----------------------*/
 
 #Education
 {
     display: block;
+}
+
+.subsection-title
+{
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.major
+{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(140, 140, 140);
+}
+
+.info
+{
+    text-align: left;
 }
 
 /*---------------------Projects----------------------*/
@@ -132,6 +155,14 @@ body
     height: 100%;
 }
 
+/*---------------------Footer----------------------*/
+
+#footer
+{
+    padding: 3%;
+}
+
+/*---------------------Scroll Bar----------------------*/
 
 ::-webkit-scrollbar {
     width: 8px;
